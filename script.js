@@ -28,7 +28,7 @@ words.forEach(word => {
         isHovered = true;
         const hoveredWord = word.textContent;
         console.log(`Hovered word: ${hoveredWord}`);
-        // const apiUrl = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
+        const apiUrl = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
 
         if (!translationInProgress) {
             translationInProgress = true;
