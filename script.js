@@ -35,6 +35,9 @@ words.forEach(word => {
             if (!apiUrl) {
                 return;
             }
+            if (!response.JSON.statusCode === 200) {
+                return;
+            }
             fetch(apiUrl, {
                 method: 'POST',
                 headers: {
