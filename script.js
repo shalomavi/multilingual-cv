@@ -1,5 +1,6 @@
 
-const apiKey = 'AIzaSyD8uguRe3JdAR4GNU5hnwTYGG19r4iRX1w'; // API KEY
+const apiKey = 'AIzaSyBuj6D8eE6Xcr7mKoq2C22r85fkULKqbJg'; // API KEY
+
 
 
 const translationResult = document.getElementById('translationResult');
